@@ -21,7 +21,7 @@ email: docplay.emp@gmail.com
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+This tool had been created for the Squad Community by request.
 SquadEnum can be used to extract following information from the SDK:
 * Vehicle Weapon Class Names
 * nothing else yet
