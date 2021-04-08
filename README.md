@@ -24,7 +24,7 @@ email: docplay.emp@gmail.com
 
 SquadEnum can be used to extract following information from the SDK:
 * Vehicle Weapon Class Names
-* nothing else yes
+* nothing else yet
 
 
 
