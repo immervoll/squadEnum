@@ -59,7 +59,7 @@ pip install colorama
 ```sh
 python ./squadEnum.py;
 ```
-
+> Make sure to mount your sdk if you are using the docker image!
 
 
 <!-- USAGE EXAMPLES -->
