@@ -26,6 +26,8 @@ SquadEnum can be used to extract following information from the SDK:
 * Vehicle Weapon Class Names
 * nothing else yet
 
+### Requesting a Feature
+Just create an issue ;)
 
 
 ### Built With
