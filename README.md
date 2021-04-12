@@ -67,7 +67,7 @@ python ./squadEnum.py;
 
 **SquadEnum** will guide you through each step.
 
-This will give you a file called export.txt with the class names.
+This will give you a file called export.txt with the class names similar to this.
 ```
  BFV_M252_AP, 
  BFV_M252_AP_Woodland, 
