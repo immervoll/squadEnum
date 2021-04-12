@@ -7,6 +7,18 @@ logfile = f"./logs/log {time.ctime()}.txt".replace(" ","-").replace(":", "-")
 
 
 def log(payload:str, type:int = 1):     # -> formats & logs a payload based on type
+    """
+Parameters
+  | payload : str
+  |     the content being written to log
+  | type: int, optional
+  |     the log type (default is 1)
+  | 1 : Log
+  | 2 : Warning
+  | 3 : Error
+  | 4 : Success
+  | 6 : Utility Highlight
+    """  
     if type == 1:
         print(Fore.WHITE + f"{time.ctime()} | LOG ::: {payload}" + Fore.RESET)
         __write(payload, type)
@@ -32,6 +44,18 @@ def log(payload:str, type:int = 1):     # -> formats & logs a payload based on t
         __write(payload, 2)
         
 def __write(payload:str, type:int):       # -> appends log to file
+    """
+Parameters
+  | payload : str
+  |     the content being written to log
+  | type: int, optional
+  |     the log type (default is 1)
+  | 1 : Log
+  | 2 : Warning
+  | 3 : Error
+  | 4 : Success
+  | 6 : Utility Highlight
+    """      
     with open(logfile, "a") as f:
         if type == 1:
             f.write(f"{time.ctime()} | LOG ::: {payload} \n")
